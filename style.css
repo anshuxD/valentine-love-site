@@ -392,6 +392,7 @@ body {
     text-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
     animation: glow 2s ease-in-out infinite alternate;
 }
+
 .page4 .main-heading {
     font-size: 3rem;
     color: var(--primary-red);
