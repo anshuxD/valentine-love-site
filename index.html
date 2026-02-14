@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js" defer></script>
+</head>
+<body class="page1">
+    <div class="background">
+        <div class="floating-hearts">
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </div>
+        <div class="floating-bubbles">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+        </div>
+        <div class="floating-elements">
+            <div class="element rose">🌹</div>
+            <div class="element chocolate">🍫</div>
+            <div class="element teddy">🧸</div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="panda">
+            <img src="gifs/my-panda.gif" class="panda" alt="Cute Panda">
+        </div>
+        
+        <h1 class="main-heading">Will you be my Valentine?</h1>
+        
+        <div class="timeline">
+            <p id="timeline-text">It's our <span id="nth-day"></span> Valentine's Day since 2023</p>
+            <div class="timeline-dots" id="timeline-dots"></div>
+        </div>
+        
+        <div class="buttons">
+            <button id="yes-btn" class="btn yes-btn">YES</button>
+            <button id="no-btn" class="btn no-btn">NO</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

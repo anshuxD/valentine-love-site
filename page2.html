@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Kisses</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js" defer></script>
+</head>
+<body class="page2">
+    <div class="background">
+        <div class="floating-hearts">
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </div>
+        <div class="floating-bubbles">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+        </div>
+        <div class="floating-elements">
+            <div class="element rose">🌹</div>
+            <div class="element chocolate">🍫</div>
+            <div class="element teddy">🧸</div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h1 class="main-heading">Before your treats… I need 50 kisses 😚💋</h1>
+        
+        <div class="counter">
+            <p id="kiss-counter">Kisses: 0 / 50</p>
+            <div class="progress-bar">
+                <div id="progress-fill" class="progress-fill"></div>
+            </div>
+        </div>
+        
+        <div id="message" class="message"></div>
+        
+        <button id="kiss-btn" class="btn kiss-btn">Kiss Me</button>
+        
+        <div id="treats" class="treats hidden">
+            <div class="treat chocolate">🍫</div>
+            <div class="treat cake">🎂</div>
+            <div class="treat strawberry">🍓</div>
+            <div class="treat donut">🍩</div>
+        </div>
+        
+        <p id="unlock-text" class="unlock-text hidden">You earned your treats, my Valentine 💖</p>
+        
+        <button id="next-btn" class="btn next-btn hidden">Next</button>
+    </div>
+    
+    <audio id="bg-music" preload="none">
+        <source src="https://www.soundjay.com/misc/sounds/perfect-ed-sheeran-placeholder.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <audio id="kiss-sound" preload="none">
+        <source src="https://www.soundjay.com/misc/sounds/kiss-sound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
